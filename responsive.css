@@ -1,0 +1,98 @@
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+
+/* About me */
+#aboutme{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#aboutme::before{
+    height: 480px; 
+}
+
+#aboutme p{
+    font-size: 13px;
+}
+
+/* Hobbies */
+
+#hobby{
+    flex-direction: column;
+}
+
+#hobby .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+/* Clients section */
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+/* Favourites */
+
+#favourite{
+    flex-direction: column;
+}
+
+#favourite .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+
+#favourite{
+    flex-wrap: wrap;
+}
+
+#skill{
+    flex-direction: column;
+}
+
+#skill .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+
+#skill{
+    flex-wrap: wrap;
+}
+
+
+
+
+
+#city{
+    flex-direction: column;
+}
+
+#city .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+
+#city{
+    flex-wrap: wrap;
+}

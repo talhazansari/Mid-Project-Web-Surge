@@ -1,0 +1,16 @@
+.container-fluid{
+
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+margin-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    iframe{
+      height: 11em;
+    }
+    .card{
+      width: 50%;
+    }
+  }

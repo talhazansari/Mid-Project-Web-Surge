@@ -1,0 +1,171 @@
+/* Background image */
+body {
+    background-image: url('portfolio2.png');
+  }
+
+
+  /* .carousel .carousel-item {
+    height: 500px;
+    
+  }
+
+  
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      margin-top: 30px;
+  margin-bottom: 100px;
+      min-height: 200px;
+  } */
+
+  #personality{
+    margin: 34px;
+    display: flex;
+    
+   
+}
+#personality .box{ 
+    
+    padding: 34px;
+    margin: 2px 5px;
+   
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    background-color: #9bb4e0f5;
+    
+}
+
+#personality .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#personality .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.6rem;
+
+} 
+
+
+#Personalities{ 
+    position: relative;
+}
+
+#Personalites::before{
+ content: "";
+ position: absolute;
+ /* background: url('hobby.jpg'); */
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.28;
+}
+
+
+.h-primary{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 3.8rem;
+    padding: 12px;
+    
+    
+    
+}
+
+.h-secondary{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 2.3rem;
+    padding: 12px;
+   
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+
+
+
+
+/* .container-fluid{
+
+   
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        
+        
+
+} */
+
+   
+
+#frame
+{
+    margin-top: 30px;
+   
+}
+
+@media only screen and (min-width: 1200px) {
+    .yt
+    {
+        width:700px;
+        height: 650px;
+        
+    }
+    
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .yt
+        {
+            width:540px;
+            height: 500px;
+            
+        }
+        
+        }
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .yt
+        {
+            width:840px;
+            height: 500px;
+            
+        }
+        
+        }
+    @media (min-width: 577px) and (max-width: 768px) {
+        .yt
+        {
+            width:600px;
+            height: 400px;
+            
+        }
+        
+        }
+        @media  (max-width: 576px) {
+            .yt
+            {
+                width:450px;
+                height: 400px;
+                
+            }
+            
+            }
+
+            .footer {
+                background: rgb(37, 203, 206);
+                text-align: center;
+                height: 100px;
+              }

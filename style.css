@@ -1,0 +1,355 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99999999;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #406ead;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 79px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/* Real About Me Section */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home Section */
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutme::before{ 
+    content: "";
+    position: absolute;
+    /* background: url('portfolio2.png'); */
+    height: 3350px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.5
+}
+
+#aboutme h1{
+    color:black;
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#aboutme p{
+    color:black;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(194 235 242);
+    border: 9px groove #15617e;
+    font-family: 'Baloo Bhai', cursive;
+}
+/* Hobbies Section */
+#hobby{
+    margin: 34px;
+    display: flex;
+    
+   
+}
+#hobby::before{ 
+    content: "";
+    position: absolute;
+    /* background: url('portfolio2.png'); */
+    height: 1500px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.5
+}
+#hobby .box{ 
+    border: 2px solid #ff9400;
+    padding: 34px;
+    margin: 2px 34px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    background-color: #3cc9f569;
+}
+
+#hobby .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#hobby .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+
+
+#Hobbies{ 
+    position: relative;
+}
+
+#Hobbies::before{
+ content: "";
+ position: absolute;
+ /* background: url('hobby.jpg'); */
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.2
+}
+
+
+
+
+
+/* Skills Section */
+#client-section{ 
+    position: relative;
+}
+
+#client-section::before{
+ content: "";
+ position: absolute;
+ /* background: url('skills.png'); */
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.2;
+
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 124px;
+}
+
+
+
+/* Favourites */
+#favourite{
+    margin: 34px;
+    display: flex;
+    
+   
+}
+#favourite .box{ 
+    border: 2px solid #bf9c0e;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    background-color: #a1ebfd;
+}
+
+#favourite .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#favourite .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+
+
+#Favourites{ 
+    position: relative;
+}
+
+#Favourites::before{
+ content: "";
+ position: absolute;
+ /* background: url('hobby.jpg'); */
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.28;
+}
+
+
+
+/* Skills Description */
+
+
+#skill{
+    margin: 34px;
+    display: flex;
+    
+   
+}
+#skill .box{ 
+    
+    padding: 34px;
+    margin: 2px 5px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    background-color: #a1ebfd;
+}
+
+#skill .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#skill .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+
+
+#Skills{ 
+    position: relative;
+}
+
+#Skills::before{
+ content: "";
+ position: absolute;
+ /* background: url('hobby.jpg'); */
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.28;
+}
+
+
+
+
+
+/* Utility Classes */
+.h-primary{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 3.8rem;
+    padding: 12px;
+    
+    
+}
+
+.h-secondary{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 2.3rem;
+    padding: 12px;
+   
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+body {
+    background-image: url('portfolio2.png');
+  }
+
+/* Icon*/
+  .footer {
+    background: rgb(46, 45, 45);
+    text-align: center;
+  }
+
+
+  .social-icon {
+    color: var(--mainWhite);
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    transition: var(--mainTransition);
+  }
+  .social-icon:hover {
+    color: white;
+  }
+  
+
+  .footer {
+    background: rgb(37, 203, 206);
+    text-align: center;
+    height: 100px;
+  }
